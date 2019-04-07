@@ -7211,7 +7211,7 @@ js-base64@^2.1.8:
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.5.1.tgz#1efa39ef2c5f7980bb1784ade4a8af2de3291121"
   integrity sha512-M7kLczedRMYX4L8Mdh4MzyAMM9O5osx+4FcOQuTvr3A9F2D9S5JXheN0ewNbrvK2UatkTRhL5ejGmGSjNMiZuw==
 
-js-beautify@^1.8.9:
+js-beautify@^1.8.8, js-beautify@^1.8.9:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/js-beautify/-/js-beautify-1.9.1.tgz#6f9ef915f5d8d92b9f907606fce63795884c8040"
   integrity sha512-oxxvVZdOdUfzk8IOLBF2XUZvl2GoBEfA+b0of4u2EBY/46NlXasi8JdFvazA5lCrf9/lQhTjyVy2QCUW7iq0MQ==
@@ -9740,7 +9740,7 @@ pretty-hrtime@^1.0.3:
   resolved "https://registry.yarnpkg.com/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
   integrity sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=
 
-prismjs@^1.8.4, prismjs@~1.16.0:
+prismjs@^1.15.0, prismjs@^1.8.4, prismjs@~1.16.0:
   version "1.16.0"
   resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.16.0.tgz#406eb2c8aacb0f5f0f1167930cb83835d10a4308"
   integrity sha512-OA4MKxjFZHSvZcisLGe14THYsug/nF6O1f0pAJc0KN0wTyAcLqmsbE+lTGKSpyh+9pEW57+k6pg2AfYR+coyHA==
@@ -11423,6 +11423,16 @@ stealthy-require@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
+
+storybook-addon-jsx@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/storybook-addon-jsx/-/storybook-addon-jsx-7.1.0.tgz#d80dec7a91eff45180068db1be925a3295d42b4a"
+  integrity sha512-misUBJ/vdcf+OjI6pAQOWFu4V3vN9h8lP/HePSZLlokyPnFbF/gREiVqBOW5YcNzux6exelJoIJmoZNWovUNmw==
+  dependencies:
+    copy-to-clipboard "^3.0.8"
+    js-beautify "^1.8.8"
+    prismjs "^1.15.0"
+    react-element-to-jsx-string "^14.0.2"
 
 stream-browserify@^2.0.1:
   version "2.0.2"
