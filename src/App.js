@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import Button from './atoms/Button';
+import ButtonGroup from './atoms/ButtonGroup';
 
 class App extends Component {
   render() {
@@ -10,6 +12,12 @@ class App extends Component {
 				UI Library
 			</h1>
         </header>
+		<main>
+			<ButtonGroup>
+				<Button txt="Reset" />
+				<Button txt="Primary" modifier="primary" />
+			</ButtonGroup>
+		</main>
       </div>
     );
   }
