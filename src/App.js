@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import Button from './atoms/Button';
 import ButtonGroup from './atoms/ButtonGroup';
 
@@ -14,8 +14,8 @@ class App extends Component {
         </header>
 		<main>
 			<ButtonGroup>
-				<Button txt="Reset" />
-				<Button txt="Primary" modifier="primary" />
+				<Button>Reset</Button>
+				<Button modifier="primary">Primary</Button>
 			</ButtonGroup>
 		</main>
       </div>

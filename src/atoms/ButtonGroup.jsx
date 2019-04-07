@@ -1,4 +1,5 @@
 import React from 'react'
+import "./ButtonGroup.scss"
 
 const ButtonGroup = (props) => {
   return (
