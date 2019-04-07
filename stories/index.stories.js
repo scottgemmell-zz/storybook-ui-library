@@ -5,7 +5,7 @@ import { withKnobs, select } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 import { withInfo } from '@storybook/addon-info';
-import { jsxDecorator } from 'storybook-addon-jsx';
+//import { jsxDecorator } from 'storybook-addon-jsx';
 
 import { Welcome } from '@storybook/react/demo';
 import { Button, ButtonGroup } from "../src/library/atoms";
@@ -20,7 +20,7 @@ storiesOf('Welcome', module)
 	.add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
 storiesOf('Button', module)
-	.addDecorator(jsxDecorator)
+	//.addDecorator(jsxDecorator)
 	.addDecorator(withInfo)
 	.addDecorator(withKnobs)
 	.add('Default', () => (
