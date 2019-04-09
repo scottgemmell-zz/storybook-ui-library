@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.scss';
 import Button from './library/atoms/Button';
 import ButtonGroup from './library/atoms/ButtonGroup';
 
