@@ -1,7 +1,7 @@
 {
-  "name": "storybook-ui-library",
+  "name": "@scottgemmell/storybook-ui-library",
   "description": "In the project directory, you can run:",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "esnext": "dist-src/index.js",
   "main": "dist-node/index.js",
   "module": "dist-web/index.js",

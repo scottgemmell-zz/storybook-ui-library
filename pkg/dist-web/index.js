@@ -31,13 +31,24 @@ const ButtonGroup = props => {
   }, props.children);
 };
 
+const Panel = (_ref) => {
+  let children = _ref.children;
+  return React.createElement("div", {
+    style: {
+      backgroundColor: "#bada55",
+      borderColor: "#bada55",
+      padding: "10px 16px",
+      fontSize: 16,
+      margin: 20
+    }
+  }, children);
+};
+
 class App extends Component {
   render() {
     return React.createElement("div", {
       className: "App"
-    }, React.createElement("header", {
-      className: "App-header"
-    }, React.createElement("h1", null, "UI Library")), React.createElement("main", null, React.createElement(ButtonGroup, null, React.createElement(Button, null, "Reset"), React.createElement(Button, {
+    }, React.createElement("header", null, React.createElement("h1", null, "Bada55 UI Library")), React.createElement("main", null, React.createElement(Panel, null, React.createElement("h1", null, "Lorem ipsum"), React.createElement("p", null, "Dolor set elit nullum vitae.")), React.createElement(ButtonGroup, null, React.createElement(Button, null, "Reset"), React.createElement(Button, {
       modifier: "primary"
     }, "Primary"))));
   }

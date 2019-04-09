@@ -37,13 +37,25 @@ const ButtonGroup = props => {
   }, props.children);
 };
 
+const Panel = ({
+  children
+}) => {
+  return React__default.createElement("div", {
+    style: {
+      backgroundColor: "#bada55",
+      borderColor: "#bada55",
+      padding: "10px 16px",
+      fontSize: 16,
+      margin: 20
+    }
+  }, children);
+};
+
 class App extends React.Component {
   render() {
     return React__default.createElement("div", {
       className: "App"
-    }, React__default.createElement("header", {
-      className: "App-header"
-    }, React__default.createElement("h1", null, "UI Library")), React__default.createElement("main", null, React__default.createElement(ButtonGroup, null, React__default.createElement(Button, null, "Reset"), React__default.createElement(Button, {
+    }, React__default.createElement("header", null, React__default.createElement("h1", null, "Bada55 UI Library")), React__default.createElement("main", null, React__default.createElement(Panel, null, React__default.createElement("h1", null, "Lorem ipsum"), React__default.createElement("p", null, "Dolor set elit nullum vitae.")), React__default.createElement(ButtonGroup, null, React__default.createElement(Button, null, "Reset"), React__default.createElement(Button, {
       modifier: "primary"
     }, "Primary"))));
   }
