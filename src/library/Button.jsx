@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Button = ( { modifier, onClick, children } ) => {
-
   return (
 	<button 
 		className={`btn btn--${modifier}`}

@@ -1,17 +1,26 @@
 import React, { Component } from 'react';
-import Button from './library/atoms/Button';
-import ButtonGroup from './library/atoms/ButtonGroup';
+import Button from './library/Button';
+import ButtonGroup from './library/ButtonGroup';
+import Panel from './library/Panel';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <header>
 			<h1>
-				UI Library
+				Bada55 UI Library
 			</h1>
         </header>
 		<main>
+			<Panel>
+				<h1>
+					Lorem ipsum 
+				</h1>
+				<p>
+					Dolor set elit nullum vitae.
+				</p>
+			</Panel>
 			<ButtonGroup>
 				<Button>Reset</Button>
 				<Button modifier="primary">Primary</Button>
